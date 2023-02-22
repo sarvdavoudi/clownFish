@@ -1,7 +1,7 @@
-/*روت  شبیه * است اما تفاوت جزئی دارند*/
+/*Root is similar to * but they are little different*/
 :root{
-    /*این ویژگی بهتر است که در اینجا قرار بگیرد*/
-    box-sizing: border-box;/*بوردر را داخل عرض و ارتفاع قرار میدهد و باعث جلوگیری افزایش عرض و ارتفاع میشود*/
+    /*box-sizing  is better placed here*/
+    box-sizing: border-box;/*It places the border inside the width and height and prevents the increase size of the width and height*/
 
 }
 
@@ -21,8 +21,8 @@ body{
     height: 650px;
     border: 2px solid lightgray;
     box-shadow: 3px 8px 5px 3px #cccccc;
-    display: flex; /*تگ های دورن کانتینر را کنار هم قرار میدهد*/
-    flex-direction: column; /*فلکس به صورت پیش فرض سطری مرتب میکند برای همین تعیین میکنیم که ستونی کنار هم قرار دهد*/
+    display: flex; /* puts the tags in the container side by side*/
+    flex-direction: column; /*Flex sorts a row by default, so we change it so that it puts a column below*/
     align-items: center;
     
 }
